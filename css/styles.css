@@ -1,0 +1,131 @@
+body{
+    font-family: 'Amazon Ember', sans-serif;
+}
+
+label {
+    display: flex;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: right;
+}
+
+.top-container {
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+    justify-content: space-between;
+}
+
+.form {
+    display: inline-block;
+}
+
+.forgot-pass {
+    display: inline-block;
+}
+
+.help {
+    text-align: left;
+}
+
+.email1 {
+    text-align: left;
+    position: relative;
+    top: -15px;
+    font-size: 12pt;
+}
+
+.email2 {
+    text-align: left;
+    position: relative;
+    top: -5px;
+    font-size: 12pt;
+}
+
+.sign-in-box {
+    border: solid 1px lightgray;
+    width: 500px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.heading1 {
+    text-align: left;
+    margin-left: 45px;
+
+}
+
+.copyright {
+    text-align: center;
+}
+
+.continue {
+    background-color: #FF9900;
+    width: 400px;
+    height: 30px;
+}
+
+.create {
+    position: relative;
+    top: -75px;
+    width: 400px;
+    height: 30px;
+}
+
+.middle-container {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    font-size: 10pt;
+
+}
+
+.footer-link {
+   text-align: center;
+    margin: 10px 20px; 
+}
+
+#new {
+    text-align: center;
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -30px;
+}
+
+#rule1 {
+    border: solid lightgray 2px;
+    border-bottom: none;
+    width: 25%;
+    margin: 20px auto;
+}
+
+#donut {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+        
+}
+
+#email {
+    width: 400px;
+    height: 30px;
+    position: relative;
+    top: -10px;
+    font-size: 12pt;
+}
+
+#password {
+    width: 400px;
+    height: 30px;
+    font-size: 12pt;
+}
